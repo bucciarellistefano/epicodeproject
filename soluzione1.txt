@@ -1,0 +1,52 @@
+Stefano Bucciarelli
+Dati struttati=
+    {
+    Consumo in MW/h in Europa da Gennaio 2015 ad Agosto 2020
+    -Dataset source:
+    https://www.kaggle.com/datasets/francoisraucent/western-europe-power-consumption
+
+    Dati: {Data inizio rilevazione} - {Data fine rilevazione} - {Orario inizio rilevazione} - {Orario fine rilevazione} - {MW consumati in un ora}
+    }
+
+    {   
+    Popolazione in Europa dal 2015 al 2020
+    -Dataset source:
+    https://data.worldbank.org/indicator/SP.POP.TOTL?end=2020&locations=EU&name_desc=false&start=2015
+    (scaricando il dataset si ottengono i valori per tutti gli stati del mondo dal 1960 al 2023 quindi dopo andrebbero filtrati per il mio obiettivo)
+
+    Dati: {Stato} - {anno} - {Numero abitanti}
+    }
+
+    {   
+    Produzione di energia elettrica vari stati europei dal 2015 al 2020
+    -Dataset source:
+    https://www.kaggle.com/datasets/programmerrdai/renewable-energy
+    (Ci sono vari dataset per ogni tipo di energia rinnovabile e riguardano la produzione di tutte le nazioni del mondo dal 1990 al 2020 quindi andrebbero filtrati per il mio abiettivo)
+
+    Dati: {Stato} - {anno} - {produzione energia fonte rinnovabile annua}
+    }
+
+Dati non struttati/semi-strutturati
+    {
+    Quanto e' cambiata la visuale delle nazioni europee dal 2015 al 2020:
+    -Dataset source:
+    https://www.google.it/intl/it/earth/
+    Dati da estrarre {capitali europee} {anno} {quantita' di grigio}
+    }
+
+    {
+    Quantita' di video di youtube su tema 'energia rinnovabile' 2015 2020:
+    -Dataset source
+    https://www.youtube.com/
+    Dati da estrarre: {numero di video su temi 'energia rinnovabile' (sia positivi che negativi)} {numero di video annui} {visualizzazioni dei video green ogni anno} 
+    }
+
+
+-obiettivi = 
+Fare una media di consumo pro capite annuo del consumo elettrico in Europa
+Quanto viene sopperito dalle energie rinnovabili per ogni nazione
+Quanto il ''landscape'' delle capitali europee e' cambiato in quei cinque anni
+Quanto la tematica green e' trattata su youtube negli anni 2015 2020
+
+
+
