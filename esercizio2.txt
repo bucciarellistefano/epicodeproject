@@ -1,0 +1,36 @@
+Lecture 2 esercizio
+Scrivi in un file di tipo testo, tutte le situazioni di una tua giornata tipo dove hai a che fare con i dati (ES  uso di social, navigatore. chat...ecc.ecc.)
+Descrivi per ogni situazione:
+che tipo di dati usi o comunichi?
+a cosa ti servono o a cosa possono servire a chi li raccoglie?
+sono dati sensibili?
+puoi evitare di comunicarli?
+hai fornito il consenso al trattamento dei dati?
+
+
+Svolgimento esercizio:
+Nella mia giornata tipo solitamente comunico di dati di ogni genere: posizione, nome e cognome, email, numero di telefono, gusti personali, 
+banalmente per caricare questo esercizio comunicherò a GitHub dei dati riguardanti il mio pc.
+
+Oltre all’uso dei dati piu’ o meno sensibili molta della mia comunicazione con persone che non abitano a casa mia avviene 
+attraverso Whatsapp quindi in un certo senso il racconto della mia vita e’ in qualche database di Meta e in un backup file su google drive.
+
+Questo e’ cosa dice che Instagram (https://about.instagram.com/it-it/blog/announcements/instagram-community-data-policy) in un piccolo riassunto di come tratta i miei data:
+-Persone e account su Instagram, in base al pubblico che scegli, alle tue impostazioni e alle funzioni che usi; ricorda che le informazioni pubbliche possono essere viste da tutti
+-Servizi (ad esempio app e siti web) a cui scegli di concedere l'accesso alle tue informazioni di Instagram: ad esempio, quando usi un servizio per vedere
+tutti i social media insieme;
+-Inserzionisti: aiutiamo gli inserzionisti a capire se le inserzioni sono efficaci. Condividiamo i dati anche con le aziende che ci aiutano a creare report per gli inserzionisti
+-Aziende che offrono articoli tramite Instagram, ad esempio quando effettui un acquisto e fornisci il tuo indirizzo di spedizione
+-Fornitori e provider di servizi con cui collaboriamo e che ci supportano nella nostra attività
+-Ricercatori e docenti universitari, ad esempio per cercare di capire come fermare il bullismo e le intimidazioni online
+-Richieste legali (ad esempio, da un giudice o dalle forze dell'ordine), se in linea con la legge e le nostre normative
+Fondamentalmente penso che la maggior parte dei dati sensibili e non che vengono utilizzati per un tipo di profilazione commerciale mentre alcuni dati come 
+il dati sensibili che ho dovuto comunicare alla mia banca oppure alla stessa Epicode sono serviti alle due societa’ per verificare il fatto che fossi una 
+persona fisica e di identificarmi.
+
+Alcuni sono indispensabili per il funzionamento degli stessi, quindi evitero’ di trattarli. mentre alcuni possono essere evitate di essere comunicati 
+ma c’e’ un costo a questa cosa: recentemente ho cominciato ad usare il browser DuckDuckGo, che punta tutto 
+sulla privacy che offre : non collezionano data, bloccano tracker, ti offrono mail secondarie per non comunicare la tua ecc. ecc.
+Una soluzione che mi permette di non comunicare molti dati, il problema che sorge e’ molto semplice: il tempo delle mie ricerche e’ aumentato di molto;
+
+Si il consenso dei dati lo accetto sempre, ma senza leggerlo, come ogni brava persona su questa terra;
