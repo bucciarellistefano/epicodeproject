@@ -1,2 +1,23 @@
 CASO DI STUDIO
 Per il progetto finale data la consegna:
+
+A partire da un caso di studio di suo interesse (es. ecommerce di prodotti cosmetici;
+dipendenti di una multinazionale farmaceutica, personale amministrativo, docente e
+studenti di un liceo; utenti, pagine, gruppi di un social network), si esegua la
+progettazione di una base dati (almeno 5 relazioni dello schema concettuale). La
+progettazione consiste di un documento con:
+Descrizione caso di studio scelto
+Modello ER
+Modello logico
+Progettazione fisica (codice DDL e DML per la creazione della base di dati, delle
+tabelle, delle chiavi primarie ed esterne, degli attributi)
+Almeno 10 interrogazioni (tutte con almeno due tra raggruppamenti e ordinamenti,
+join e date)
+
+Ho scelto di prendere come spunto dalla celebre piattaforma di vendita di videogiochi Online Steam.
+La mia scelta è stata motivata dal fatto che Steam oltre ad essere una piattaforma di vendita offre alcune funzionalità come la scrittura di post da parte degli utenti su un blog interno, c'è la funzionalità di amicizia tra gli utenti e così via.
+Il database ovviamente è una approssimazione molto larga di come funziona un sistema ipercomplesso come Steam, e sopratutto molte delle entità sono state semplificate anche per una facilità di studio (per esempio nel campo videogiochi o omesso campi come 'genere' o 'sviluppatore' che sono informazioni molto importanti per una catagorizzazione ma per semplificarmi la vita soprattutto in fase di INSERT INTO ho deciso di snellire)
+Detto questo la progettazione del database è stata pensata come l'idea di avere comunque un'entità come Utenti come base di partenza a cui sono collegati alcune informazioni obbligatoerie e uniche (email e username) e altre invece opzionali (data di nascita e numero di telefono), in seguito un altra tabella che è il catalogo di videogiochi di Steam e in seguito da queste due entità diciamo fondamentali (nel senso che non tabelle da cui partono foreign key) sono andato a progettare l'Entita Libreria dove sono presenti tutti gli elementi presenti nelle librerie dei vari utenti (quindi è una tabella con una foreign key sia per Utenti e sia per 'Videogiochi').
+In seguito sono andato a progettare Transazioni, che riguarda lo storico delle transazioni che riguardano gli utenti con i rispettivi videogiochi (non l'ho collegato alla libreria per una semplicità di studio, anche se so che concettualmente si poteva fare un collegamento con gli elementi in libreria per assicurarsi che questi siano derivanti da una transazione o in generale collegarlo ad essi).
+La tabella amicizia rappresenta un legame tra gli utenti e quindi è formata da una chiave primaria doppia (in modo da evitare che si creino doppioni di amicizia, ma questo problema è risolto in parte) e queste due colonne sono a loro volta foreign key della tabella Utenti.
+La tabella Blog fa da storage a tutti i post degli utenti e li lega attraverso una chiave primaria.
